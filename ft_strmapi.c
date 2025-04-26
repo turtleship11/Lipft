@@ -6,16 +6,11 @@
 /*   By: jaeklee <jaeklee@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 11:07:50 by jaeklee           #+#    #+#             */
-/*   Updated: 2025/04/21 15:47:02 by jaeklee          ###   ########.fr       */
+/*   Updated: 2025/04/24 17:39:48 by jaeklee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-char	c_plus(unsigned int n, char c)
-{
-	return (c + n);
-}
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

@@ -6,16 +6,18 @@
 /*   By: jaeklee <jaeklee@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 10:26:56 by jaeklee           #+#    #+#             */
-/*   Updated: 2025/04/15 15:32:09 by jaeklee          ###   ########.fr       */
+/*   Updated: 2025/04/23 16:07:28 by jaeklee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+#include "libft.h"
+
+size_t	ft_strlen(const char *s)
 {
 	int	i;
 
 	i = 0;
-	while (str[i] != 0)
+	while (s[i] != 0)
 	{
 		i++;
 	}

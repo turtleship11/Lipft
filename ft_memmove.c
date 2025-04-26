@@ -6,7 +6,7 @@
 /*   By: jaeklee <jaeklee@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/16 11:51:11 by jaeklee           #+#    #+#             */
-/*   Updated: 2025/04/21 16:26:02 by jaeklee          ###   ########.fr       */
+/*   Updated: 2025/04/23 10:08:54 by jaeklee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,6 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 
 	d = (unsigned char *)dest;
 	s = (const unsigned char *)src;
-	if ((dest == NULL || src == NULL) || n == 0)
-		return (dest);
 	if (d < s)
 		front(d, s, n);
 	else

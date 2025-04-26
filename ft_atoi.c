@@ -6,21 +6,17 @@
 /*   By: jaeklee <jaeklee@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/17 11:34:11 by jaeklee           #+#    #+#             */
-/*   Updated: 2025/04/21 15:44:36 by jaeklee          ###   ########.fr       */
+/*   Updated: 2025/04/23 16:36:26 by jaeklee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <limits.h>
-
 int	ft_atoi(const char *str)
 {
-	int		c;
-	long	v;
+	int	c;
+	int	v;
 
 	c = 1;
 	v = 0;
-	if (!str)
-		return (0);
 	while (*str == ' ' || (*str >= 8 && *str <= 13))
 		str++;
 	if (*str == '-' || *str == '+')

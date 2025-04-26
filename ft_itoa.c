@@ -6,13 +6,13 @@
 /*   By: jaeklee <jaeklee@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 10:45:09 by jaeklee           #+#    #+#             */
-/*   Updated: 2025/04/21 15:37:10 by jaeklee          ###   ########.fr       */
+/*   Updated: 2025/04/24 17:41:23 by jaeklee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	count_num(int n)
+static int	count_num(int n)
 {
 	int	count;
 

@@ -6,10 +6,9 @@
 /*   By: jaeklee <jaeklee@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 16:31:06 by jaeklee           #+#    #+#             */
-/*   Updated: 2025/04/17 16:25:53 by jaeklee          ###   ########.fr       */
+/*   Updated: 2025/04/22 13:50:19 by jaeklee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 int	ft_isalpha(int c)
 {

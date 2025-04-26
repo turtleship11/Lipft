@@ -6,11 +6,11 @@
 /*   By: jaeklee <jaeklee@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 12:52:31 by jaeklee           #+#    #+#             */
-/*   Updated: 2025/04/17 15:48:41 by jaeklee          ###   ########.fr       */
+/*   Updated: 2025/04/22 13:49:38 by jaeklee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {
